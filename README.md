@@ -1,7 +1,7 @@
 <p align="center"><img src="curseforge/images/FreeUnitFrames-logo-400.png" width="120" alt="Free Unit Frames logo"></p>
 <h1 align="center">Free Unit Frames</h1>
 <p align="center">Fully customisable unit frames for player, target, focus, party, raid and bosses, with an ElvUI-style preset in one click.</p>
-<p align="center"><a href="https://www.curseforge.com/wow/addons/freeunitframes"><b>Download on CurseForge</b></a> · version <b>0.10.0</b> · WoW Forever (1.60.1) · <code>/fuf</code></p>
+<p align="center"><a href="https://www.curseforge.com/wow/addons/freeunitframes"><b>Download on CurseForge</b></a> · version <b>0.10.1</b> · WoW Forever (1.60.1) · <code>/fuf</code></p>
 
 ![Free Unit Frames](curseforge/images/fuf_1_banner.png)
 

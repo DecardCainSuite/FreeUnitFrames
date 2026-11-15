@@ -127,7 +127,7 @@ FreeUnitFramesDB = {
 					["pos"] = {
 						"CENTER",
 						693,
-						-421,
+						-231,
 					},
 					["castbar"] = {
 						["screen"] = {
@@ -476,7 +476,7 @@ FreeUnitFramesDB = {
 					["pos"] = {
 						"CENTER",
 						-668,
-						-308,
+						-118,
 					},
 					["castbar"] = {
 						["color"] = {
@@ -822,8 +822,8 @@ FreeUnitFramesDB = {
 						["size"] = 18,
 					},
 					["pos"] = {
-						"RIGHT",
-						-1016,
+						"CENTER",
+						894,
 						95,
 					},
 					["threat"] = {
@@ -1180,7 +1180,7 @@ FreeUnitFramesDB = {
 					["pos"] = {
 						"CENTER",
 						360,
-						-354,
+						-164,
 					},
 					["castbar"] = {
 						["width"] = 0,
@@ -1529,7 +1529,7 @@ FreeUnitFramesDB = {
 					["pos"] = {
 						"CENTER",
 						469,
-						-421,
+						-231,
 					},
 					["castbar"] = {
 						["colorClass"] = false,
@@ -1878,7 +1878,7 @@ FreeUnitFramesDB = {
 					["pos"] = {
 						"CENTER",
 						165,
-						-308,
+						-118,
 					},
 					["castbar"] = {
 						["border"] = {
@@ -2225,9 +2225,9 @@ FreeUnitFramesDB = {
 						["size"] = 14,
 					},
 					["pos"] = {
-						"TOPLEFT",
-						1084,
-						-535,
+						"CENTER",
+						-609,
+						79,
 					},
 					["threat"] = {
 						["enable"] = true,
@@ -2591,7 +2591,7 @@ FreeUnitFramesDB = {
 					["pos"] = {
 						"CENTER",
 						-175,
-						-308,
+						-118,
 					},
 					["castbar"] = {
 						["border"] = {
@@ -2935,8 +2935,8 @@ FreeUnitFramesDB = {
 						["size"] = 18,
 					},
 					["pos"] = {
-						"LEFT",
-						1260,
+						"CENTER",
+						-785,
 						5,
 					},
 					["threat"] = {
