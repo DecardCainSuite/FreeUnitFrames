@@ -3,6 +3,7 @@
 ## Notes: Fully customisable unit frames (player, target, focus, party, raid, boss...) built on oUF.
 ## Author: Thibault
 ## Version: 0.10.0
+## X-Curse-Project-ID: 1788171
 ## Category: User Interface
 ## IconTexture: Interface\AddOns\FreeUnitFrames\Media\icon
 ## SavedVariables: FreeUnitFramesDB
