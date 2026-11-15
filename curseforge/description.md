@@ -40,8 +40,10 @@ Not sure where to start? Open the options, click **Apply ElvUI dark** on the Gen
 | **Portraits** | 3D model, 2D portrait or class icon. Inside the frame, behind the bars or detached at any size. 3D camera: zoom, distance, position, rotation, pause, background on or off. |
 | **Auras** | Buffs and debuffs with presets: everything (Blizzard-like), mine only, others only, what I can dispel, raid-relevant, crowd control, defensive cooldowns, short effects… Then size, per row, growth, spacing, duration numbers, stacks and border colour by type. |
 | **Castbar** | Size, offsets, icon, spell name, cast time, colours (including uninterruptible) and border. |
-| **Indicators** | Raid marker, leader, ready check, combat and resting icons, threat outline, combo points. |
-| **Groups** | Party, raid and boss headers: growth direction, spacing, sorting by group, class or role, range fading, test mode to set them up without a group. |
+| **Indicators** | Raid marker, leader, ready check, combat and resting icons, threat outline. |
+| **Combo points** | Seven styles: bars, squares, circles, diamonds, stars, vertical, and animated tally marks drawn stroke by stroke (hand-drawn, pencil, chalk or plain lines). Colours, empty points, outline, animation, and placement on the player, the target or anywhere on screen. They refresh instantly when you change target. |
+| **Pet happiness** | Hunter pet happiness as a face or a coloured dot, on the pet frame or anywhere on screen, optionally hidden while the pet is happy. |
+| **Groups** | Party and raid headers, boss frames: growth direction, spacing, sorting by group, class or role, range fading, test mode to set them up without a group. |
 
 ## Profiles
 
@@ -65,6 +67,6 @@ Free Unit Frames works on its own. With **Free Hub** installed, its options open
 
 ## Notes
 
-- Built for WoW Forever. On this client, auras go through the game's own aura system, so the buff and debuff preview is not available in test mode.
+- Built for WoW Forever. On this client, auras go through the game's own aura system: in test mode the buffs and debuffs are sample icons that show where they will appear.
 - Not affiliated with ElvUI. Free Unit Frames embeds oUF (MIT licence, included in the download).
 - Bug reports and ideas are welcome in the comments.

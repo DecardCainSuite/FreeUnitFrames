@@ -475,7 +475,8 @@ ns.TAB_KEYS = {
     castbar = { "castbar" },
     detach = { "power.detach", "power.detAnchor", "power.detX", "power.detY", "power.detW", "power.detH", "power.screen", "power.border",
                "castbar.onScreen", "castbar.screen" },
-    indicators = { "raidIcon", "leader", "readyCheck", "combat", "resting", "threat", "range", "happiness" },
+    indicators = { "raidIcon", "leader", "readyCheck", "combat", "resting", "threat", "range" },
+    happiness = { "happiness" },
     group = { "group" },
 }
 function ns.ResetTab(unit, tab)

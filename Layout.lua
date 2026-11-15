@@ -870,7 +870,10 @@ end
 local function ApplyClassPower(frame, c, cfg)
     local cp = frame.ClassPower
     if not cp then return end
-    if not c.enable then SetElement(frame, "ClassPower", false); cp.fufHolder:Hide(); return end
+    if not c.enable then
+        if cp.fufDriver then UnregisterStateDriver(cp.fufHolder, "visibility"); cp.fufDriver = nil end   -- else it would show it again
+        SetElement(frame, "ClassPower", false); cp.fufHolder:Hide(); return
+    end
     cp.fufHolder:ClearAllPoints()
     local w = cfg.width
     if c.onScreen and Floats(frame) then
