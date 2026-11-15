@@ -1,0 +1,4 @@
+package-as: FreeUnitFrames
+
+ignore:
+  - README.md

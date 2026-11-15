@@ -1,0 +1,23 @@
+name: Package and release
+
+# Runs only when a version tag is pushed (e.g. v1.0.19), never on ordinary commits.
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write   # lets the packager create the GitHub release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      CF_API_KEY: ${{ secrets.CF_API_KEY }}
+      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history, for the changelog
+
+      - uses: BigWigsMods/packager@v2

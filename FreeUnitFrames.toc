@@ -1,0 +1,29 @@
+## Interface: 16001
+## Title: Free Unit Frames
+## Notes: Fully customisable unit frames (player, target, focus, party, raid, boss...) built on oUF.
+## Author: Thibault
+## Version: 0.10.0
+## Category: User Interface
+## IconTexture: Interface\AddOns\FreeUnitFrames\Media\icon
+## SavedVariables: FreeUnitFramesDB
+## OptionalDeps: LibSharedMedia-3.0, Masque, FreeHub, SharedMediaAdditionalFonts
+## X-oUF: FreeUF
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+Libs\LibDispel\LibDispel.lua
+Libs\LibFreeProfiles-1.0\LibFreeProfiles-1.0.lua
+Libs\LibFreeMedia-1.0\LibFreeMedia-1.0.lua
+Libs\LibFreeGrid-1.0\LibFreeGrid-1.0.lua
+Libs\oUF\oUF.xml
+
+Defaults.lua
+Core.lua
+Layout.lua
+Combo.lua
+Happiness.lua
+Spawn.lua
+Config.lua
+Minimap.lua
